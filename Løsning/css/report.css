@@ -1,0 +1,58 @@
+/* Global container*/
+.container{
+
+    position: fixed;
+    height: 100%;
+    width: 100%;
+
+
+}
+
+/* Content structure*/
+#reportContent {                                                   
+    width: 100%;                      
+
+    padding: 20px;
+    min-height: 100vh;
+    transition: all 0.3s;
+    color: #006d9c;
+}
+
+
+
+
+/* Textbox container */
+#textContainer{
+    position: relative;
+    margin: auto;
+    width: 40%;
+    height: 50%;
+    display: inline-block;
+
+}
+
+/* Button for publishing */
+#submitButton{
+    position: relative;
+    top: 15px;
+
+}
+
+
+
+/* Container for reports */
+#reportContainer{
+    position: fixed;
+    margin: auto;
+    width: 40%;
+    height: 50%;
+    display: inline-block;
+    margin-left: 5%;
+}
+
+/* Individual reports */
+.publishedReport {
+    margin: auto;
+    height: 50px;
+    border: 1px dashed #ddd;
+}

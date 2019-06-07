@@ -1,0 +1,120 @@
+@import "https://fonts.googleapis.com/css?family=Poppins:350,400,500,600,700";
+
+body {
+    overflow: hidden;
+}
+
+h2 {
+    position: relative;
+    top: 25px;
+    font-family: 'Poppins', sans-serif;
+    color: #006d9c;
+    cursor: text;
+}
+
+#line {
+    position: relative;
+    top: 25px;
+    width: 100%;
+    height: 1px;
+    border-bottom: 1px dashed #ddd;
+    margin-right: 1200px;
+
+}
+
+.fa-user-circle {
+    position: relative;
+    left: 150px;
+    font-size: 250px;
+    color: darkgrey;
+}
+
+.user-name {
+    position: relative;
+    top: 350px;
+    left: 160px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+    color: dimgray;
+
+}
+
+h2.contact {
+    position: relative;
+    top: -245px;
+    left: 700px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    color: dimgray;
+}
+
+.info-1 {
+    position: relative;
+    display: block;
+    top: -245px;
+    left: 700px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    border-bottom: 1px solid rgb(202, 194, 194);
+    margin-right: 700px;
+
+}
+
+h2.dob {
+    position: relative;
+    top: -200px;
+    left: 700px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    color: dimgray;
+
+}
+
+.info-2 {
+    position: relative;
+    top: -200px;
+    left: 700px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    border-bottom: 1px solid rgb(202, 194, 194);
+    margin-right: 700px;
+}
+
+h2.level {
+    position: relative;
+    top: -165px;
+    left: 700px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    color: dimgray;
+}
+
+.info-3 {
+    position: relative;
+    top: -165px;
+    left: 700px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    border-bottom: 1px solid rgb(202, 194, 194);
+    margin-right: 700px;
+}
+
+#editbtn {
+    position: absolute;
+    width: 12%;
+    left: 80%;
+    top: 5%;
+    background-color: #993c3c;
+
+
+}
+
+/*add button, hover effect*/
+#editbtn:hover {
+    background-color: darkred;
+    transition: 0.3s;
+}
+
+#modul-hr {
+    border: 0px dotted red;
+}
